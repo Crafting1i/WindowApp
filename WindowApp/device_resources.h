@@ -1,7 +1,5 @@
-#pragma once
-
-class device_resources {
-
-};
-
-
+//#pragma once
+//
+//class device_resources {
+//
+//};

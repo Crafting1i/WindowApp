@@ -106,7 +106,7 @@
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
-      <SubSystem>Console</SubSystem>
+      <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
@@ -134,9 +134,6 @@
     <ClInclude Include="app.h" />
     <ClInclude Include="device_resources.h" />
     <ClInclude Include="renderer.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="WindowApp.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
